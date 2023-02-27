@@ -2,7 +2,7 @@ module SolvingBIB
 
 using Printf
 using Gen, GenParticleFilters
-using Julog, PDDL, Plinf
+using Julog, PDDL, Plinf, SymbolicPlanners
 
 export init_inference, reset_inference!, step_inference!, scene_inference
 export decide_step, decide_scene, total_variation

@@ -71,7 +71,7 @@ function Plinf.compute(heuristic::MultiGoalManhattan,
 end
 
 # Planner-in-the-loop to be used in heuristics
-const ASTAR_PLANNER = AStarPlanner(heuristic=GoalEuclidean())
+const ASTAR_PLANNER = AStarPlanner(GoalEuclidean())
 
 ## Utility functions for working with PDDL ##
 
